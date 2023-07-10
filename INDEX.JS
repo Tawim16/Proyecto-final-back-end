@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'CENTRO MEDICO IKAL' });
+  res.render('index', { title: 'CENTRO MEDICO SALUD PARA TODOS' });
 });
 
 module.exports = router;
