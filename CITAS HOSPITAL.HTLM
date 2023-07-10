@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1>CENTRO MEDICO  AIKA</h1>
+        <h1>CENTRO MEDICO SALUD PARA TODOS</h1>
     </header>
     <main>
         <form action="./guardar-cita" method="post">
@@ -27,9 +27,8 @@
                     general</option>
                     <option value="Medicina interna">Medicina
                     interna</option>
-                    <option value="Medicina preventiva">Medicina
-                    preventiva</option>
-                    <option value="Dermatología">Dermatología
+                    <option value="Optamologia">Optamologia</option>
+                    <option value="Neurologia">Neurologia
                     </option>
                    <option value="Cardiologia">Cardiologia</option>
                     <option value="Pediatria">Pediatria</option>
@@ -42,11 +41,13 @@
                     </option>
                     <option value="Farmacología">Farmacología
                     <option 
-                    value="Bioenergetica">Bioenergetica</option>  
+                    value="Fisioterapia">Fisioterapia</option>  
             </select><br>
             <input type="submit" value="Enviar">
         </form>
     </main>
 </body>
-
+onclick="window.location.href='medicos.html'">Agregar Medico</button>
+       <button
+         onclick="window.location.href='index.html'">Volver al inicio</button>
 </html>
